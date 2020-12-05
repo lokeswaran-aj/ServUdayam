@@ -174,12 +174,13 @@ input.agree-check{
         margin: 5% 20%;
     }
 }
-@media only screen and (max-width: 1081px){
+@media only screen and (max-width: 900px){
     body{
-        max-height: 100%;
+        max-height: 100vh;
     }
     #phone{
         width: 20px;
+    }
     .reg{
         margin: 5% auto;
         min-width: 400px;
