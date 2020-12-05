@@ -173,13 +173,18 @@ input.agree-check{
     .reg{
         margin: 5% 20%;
     }
+    .reg{
+        margin: 5% auto;
+        min-width: 400px;
+        max-width: 500px;
+    }
 }
 @media only screen and (max-width: 900px){
     body{
         max-height: 100vh;
     }
     #phone{
-        width: 20px;
+        width: 200px;
     }
     .reg{
         margin: 5% auto;
