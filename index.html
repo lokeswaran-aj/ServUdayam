@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register In</title>
+    <link rel="stylesheet" href="reg.css">
+</head>
+<body>
+    <div class="container">
+        <div class="reg">
+            <div class="welcome">
+                <h1>Welcome To Serv Udayam</h1>
+                <h2>An smart search for your Smart Home</h2>
+            </div>
+            <div class="number">
+                <div class="number-text">
+                    <h3>Enter your Mobile Number</h3>
+                </div>
+                <div class="number-input">
+                    <span id="pin">+91</span>
+                    <input type="tel" maxlength="10" placeholder="Enter number" required id='phone'>
+                </div>
+            </div>
+            <div class="otp-btn">
+                <a href="#"><button class="otp-button">Request OTP</button></a>
+            </div>
+            <div id="error"></div>
+            <form action="home.html" method="GET">
+                <div class="otp">
+                    <div class="otp-text">
+                        <h3>Enter OTP</h3>
+                    </div>
+                    <div class="otp-input">
+                        <input type="tel" placeholder="OTP" maxlength="4" size='4' required id="otp-input">
+                    </div>
+                </div>
+                <div class="agree">
+                    <input type="checkbox" name="terms" id="terms" class="agree-check"  required>
+                    Agree to <a href="#">Terms & Conditions</a>
+                </div>
+                <div class="verify">
+                    <button type="submit" value="Verify" class="verify-btn"  id="submit">Verify</button>
+                </div>
+            </form>
+            <div class="chere">
+                <h4>Are you a vendor? <a href="#">Click Here</a></h4>
+            </div> 
+        </div>
+    </div>
+</body>
+</html>
