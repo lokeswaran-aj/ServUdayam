@@ -174,7 +174,7 @@ input.agree-check{
         margin: 5% 20%;
     }
 }
-@media only screen and (max-width: 900px){
+@media only screen and (max-width: 1080px){
     body{
         max-height: 100%;
     }
