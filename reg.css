@@ -183,9 +183,6 @@ input.agree-check{
     body{
         max-height: 100vh;
     }
-    #phone{
-        width: 200px;
-    }
     .reg{
         margin: 5% auto;
         min-width: 400px;
