@@ -169,7 +169,7 @@ input.agree-check{
 .chere a{
     text-decoration: underline;
 }
-@media only screen and (max-width: 1200px){
+@media only screen and (max-width: 1080px){
     .reg{
         margin: 5% 20%;
     }
